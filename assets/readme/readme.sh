@@ -61,10 +61,10 @@ pornrs=$(ls -lah $prn/unbound.conf | awk '{print $5}')
 ultimaters=$(ls -lah $ulm/unbound.conf | awk '{print $5}')
 unifiedrs=$(ls -lah $unf/unbound.conf | awk '{print $5}')
 # add to readme
-sed -e "s/_timestamp_/$TIMESTAMP/g" -e "s/_version_/$VERSION/g" -e "s/_basict_/$bsct/g" -e "s/_blut_/$hblut/g" -e "s/_blugot_/$bGot/g" -e "s/_pornt_/$prnt/g" -e "s/_ultimatet_/$ulmt/g" -e "s/_unifiedt_/$unft/g" -e "s/_basics_/$bscs/g" -e "s/_blus_/$hblus/g" -e "s/_blugos_/$bGos/g" -e "s/_porns_/$prns/g" -e "s/_ultimates_/$ulms/g" -e "s/_unifieds_/$unfs/g" -e "s/_basicds_/$bscds/g" -e "s/_bluds_/$hbluds/g" -e "s/_blugods_/$bGods/g" -e "s/_pornds_/$prnds/g" -e "s/_ultimateds_/$ulmds/g" -e "s/_unifiedds_/$unfds/g" -e "s/_basiccs_/$bsccs/g" -e "s/_blucs_/$hblucs/g" -e "s/_blugocs_/$bGocs/g" -e "s/_porncs_/$prncs/g" -e "s/_ultimatecs_/$ulmcs/g" -e "s/_unifiedcs_/$unfcs/g" -e "s/_basicc6s_/$bscc6s/g" -e "s/_bluc6s_/$hbluc6s/g" -e "s/_blugoc6s_/$bGoc6s/g" -e "s/_pornc6s_/$prnc6s/g" -e "s/_ultimatec6s_/$ulmc6s/g" -e "s/_unifiedc6s_/$unfc6s/g" -e "s/_basicus_/$bscus/g" -e "s/_bluus_/$hbluus/g" -e "s/_blugous_/$bGous/g" -e "s/_pornus_/$prnus/g" -e "s/_ultimateus_/$ulmus/g" -e "s/_unifiedus_/$unfus/g" -e "s/_basicrs_/$bscrs/g" -e "s/_blurs_/$hblurs/g" -e "s/_blugors_/$bGors/g" -e "s/_pornrs_/$prnrs/g" -e "s/_ultimaters_/$ulmrs/g" -e "s/_unifiedrs_/$unfrs/g" readme.template > ../readme.tmp
+sed -e "s/_timestamp_/$TIMESTAMP/g" -e "s/_version_/$VERSION/g" -e "s/_basict_/$basict/g" -e "s/_blut_/$blut/g" -e "s/_blugot_/$blugot/g" -e "s/_pornt_/$pornt/g" -e "s/_ultimatet_/$ultimatet/g" -e "s/_unifiedt_/$unifiedt/g" -e "s/_basics_/$basics/g" -e "s/_blus_/$blus/g" -e "s/_blugos_/$blugos/g" -e "s/_porns_/$porns/g" -e "s/_ultimates_/$ultimates/g" -e "s/_unifieds_/$unifieds/g" -e "s/_basicds_/$basicds/g" -e "s/_bluds_/$bluds/g" -e "s/_blugods_/$blugods/g" -e "s/_pornds_/$pornds/g" -e "s/_ultimateds_/$ultimateds/g" -e "s/_unifiedds_/$unifiedds/g" -e "s/_basiccs_/$basiccs/g" -e "s/_blucs_/$blucs/g" -e "s/_blugocs_/$blugocs/g" -e "s/_porncs_/$porncs/g" -e "s/_ultimatecs_/$ultimatecs/g" -e "s/_unifiedcs_/$unifiedcs/g" -e "s/_basicc6s_/$basicc6s/g" -e "s/_bluc6s_/$bluc6s/g" -e "s/_blugoc6s_/$blugoc6s/g" -e "s/_pornc6s_/$pornc6s/g" -e "s/_ultimatec6s_/$ultimatec6s/g" -e "s/_unifiedc6s_/$unifiedc6s/g" -e "s/_basicus_/$basicus/g" -e "s/_bluus_/$bluus/g" -e "s/_blugous_/$blugous/g" -e "s/_pornus_/$pornus/g" -e "s/_ultimateus_/$ultimateus/g" -e "s/_unifiedus_/$unifiedus/g" -e "s/_basicrs_/$basicrs/g" -e "s/_blurs_/$blurs/g" -e "s/_blugors_/$blugors/g" -e "s/_pornrs_/$pornrs/g" -e "s/_ultimaters_/$ultimaters/g" -e "s/_unifiedrs_/$unifiedrs/g" readme.template > ../readme.tmp
 echo >> ../readme.tmp
 # add to file
-cat ../readme.tmp  > ../README.md
+cat ../readme.tmp  > ../../README.md
 echo "- Adding Date"
 echo "- Adding Version"
 echo "- Adding Total Entries"
@@ -75,7 +75,7 @@ rm -rf ../*.tmp
 
 # remove extra text
 echo "- Removing Extras"
-sed -i -e 's/# Total Domains: //g' ../README.md
+sed -i -e 's/# Total Domains: //g' ../../README.md
 
 echo "[+] Done !"
 

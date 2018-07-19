@@ -4,7 +4,7 @@
 ; Project Git: https://github.com/EnergizedProtection/block
 
 ; Version: 18.07.200
-; Last updated: Thu, 19 Jul 18 13:40:22
+; Last updated: Thu, 19 Jul 18 14:39:18
 $TTL 2h
 @ IN SOA localhost. root.localhost. (1 6h 1h 1w 2h)
   IN NS  localhost.
