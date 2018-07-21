@@ -3,12 +3,12 @@
 # https://nayemador.com/energized
 
 # Energized Porn Extension
-# Version: 18.07.200
+# Version: 18.07.202
 # Project Git: https://github.com/EnergizedProtection/block
 # Source: https://nayemador.com/energized/porn
 # RAW Source: https://raw.githubusercontent.com/EnergizedProtection/block/master/porn/formats/hosts
-# Last updated: Thu, 19 Jul 18 14:39:11
-# Total Domains: 28669
+# Last updated: Sat, 21 Jul 18 06:57:41
+# Total Domains: 28670
 
 
 # -===============-Team Boltz-================-
@@ -13834,6 +13834,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 myanimalsex.com
 0.0.0.0 myanimaltube.com
 0.0.0.0 myarchives.net
+0.0.0.0 myashot.txxx.com
 0.0.0.0 myasianboobs.com
 0.0.0.0 mybabes.com
 0.0.0.0 mybabysittersclub.com

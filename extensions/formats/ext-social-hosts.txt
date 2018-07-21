@@ -3,11 +3,11 @@
 # https://nayemador.com/energized
 
 # Energized Social Extension
-# Version: 18.07.200
+# Version: 18.07.202
 # Project Git: https://github.com/EnergizedProtection/block
 # Source: https://nayemador.com/energized/porn
 # RAW Source: https://raw.githubusercontent.com/EnergizedProtection/block/master/porn/formats/hosts
-# Last updated: Thu, 19 Jul 18 14:39:11
+# Last updated: Sat, 21 Jul 18 06:57:41
 # Total Domains: 1161
 
 

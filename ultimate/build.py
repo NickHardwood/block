@@ -65,6 +65,7 @@ Sources = [
     'https://raw.githubusercontent.com/EnergizedProtection/mirror/master/active/filter/hosts-file.net-grm.txt',
     'https://raw.githubusercontent.com/EnergizedProtection/mirror/master/active/filter/hosts-file.net-hjk.txt',
     'https://raw.githubusercontent.com/EnergizedProtection/mirror/master/active/filter/hosts-file.net-mmt.txt',
+    'https://hosts-file.net/psh.txt',
     'https://raw.githubusercontent.com/EnergizedProtection/mirror/master/active/filter/hosts-file.net-wrz.txt',
     'https://raw.githubusercontent.com/EnergizedProtection/mirror/master/active/filter/kadhosts.txt',
     'https://raw.githubusercontent.com/EnergizedProtection/mirror/master/active/filter/lightswitch-hosts-extended.txt',

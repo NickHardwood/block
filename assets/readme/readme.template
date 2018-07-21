@@ -1,6 +1,6 @@
 ![Cover](https://nayemador.com/assets/covers/energized_cover.svg)
 
-<h1 align="center">Energized - Hosts ⚡</h1>
+<h1 align="center">Energized - block ⚡</h1> 
 
 <div align="center">
   <!-- Version -->
@@ -87,7 +87,7 @@ This Energized System is designed for Unix-like systems, gets a list of domains 
 
 The **Non GitHub mirror** is the link to use for some hosts file managers which don't work with Github download links.
 
-Host File Recipe | Blocking(s) | Raw Hosts | Unique Domains | Mirror | Size
+Host File Recipe | Blocking(s) | RAW Hosts | Unique Entries | Mirror | Size
 ---------------- |:------:|:---------:|:--------------:|:-------------:|:-------------:
 Energized Basic | Adware & Malware Basic | [LINK](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts) | _basict_ | [LINK](https://nayemador.com/energized/basic) | _basics_
 Energized Blu | Lightweight Energized | [LINK](https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/hosts) | _blut_ | [LINK](http://adroit.heliohost.org/energized/blu) | _blus_
@@ -119,9 +119,9 @@ You can use any `practical` way you want to use Energized on your devices, if yo
 
 Different formats for various devices.
 
-Package | Entries | RAW | TXT | Domains| DNSMasq | DNSMasq IPV6 | Unbound | RPZ
+Package | Entries | RAW | TXT | Domains | DNSMasq | DNSMasq IPV6 | Unbound | RPZ
 ----------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-Basic | **_basict_** | [RAW](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts) (_basicss_) | [TXT](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts.txt) (_basics_) | [LIST](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/domains.txt) (_basicds_) | [CONF](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/dnsmasq.conf) (_basiccs_) | [CONF IPV6](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/dnsmasq-ipv6.conf) (_basicc6s_) | [CONF](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/unbound.conf) (_basicus_) | [TXT](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/unbound.conf) (_basicrs_) |
+Basic | **_basict_** | [RAW](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts) (_basics_) | [TXT](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/hosts.txt) (_basics_) | [LIST](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/domains.txt) (_basicds_) | [CONF](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/dnsmasq.conf) (_basiccs_) | [CONF IPV6](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/dnsmasq-ipv6.conf) (_basicc6s_) | [CONF](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/unbound.conf) (_basicus_) | [TXT](https://raw.githubusercontent.com/EnergizedProtection/block/master/basic/formats/unbound.conf) (_basicrs_) |
 Blu | **_blut_** | [RAW](https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/hosts) (_blus_) | [TXT](https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/hosts.txt) (_blus_) | [LIST](https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/domains.txt) (_bluds_) | [CONF](https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/dnsmasq.conf) (_blucs_) | [CONF IPV6](https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/dnsmasq-ipv6.conf) (_bluc6s_) | [CONF](https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/unbound.conf) (_bluus_) | [TXT](https://raw.githubusercontent.com/EnergizedProtection/block/master/blu/formats/unbound.conf) (_blurs_) |
 Blu Go | **_blugot_** | [RAW](https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/hosts) (_blugos_) | [TXT](https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/hosts.txt) (_blugos_) | [LIST](https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/domains.txt) (_blugods_) | [CONF](https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/dnsmasq.conf) (_blugocs_) | [CONF IPV6](https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/dnsmasq-ipv6.conf) (_blugoc6s_) | [CONF](https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/unbound.conf) (_blugous_) | [TXT](https://raw.githubusercontent.com/EnergizedProtection/block/master/bluGo/formats/unbound.conf) (_blugors_) |
 Porn | **_pornt_** | [RAW](https://raw.githubusercontent.com/EnergizedProtection/block/master/porn/formats/hosts) (_porns_) | [TXT](https://raw.githubusercontent.com/EnergizedProtection/block/master/porn/formats/hosts.txt) (_porns_) | [LIST](https://raw.githubusercontent.com/EnergizedProtection/block/master/porn/formats/domains.txt) (_pornds_) | [CONF](https://raw.githubusercontent.com/EnergizedProtection/block/master/porn/formats/dnsmasq.conf) (_porncs_) | [CONF IPV6](https://raw.githubusercontent.com/EnergizedProtection/block/master/porn/formats/dnsmasq-ipv6.conf) (_pornc6s_) | [CONF](https://raw.githubusercontent.com/EnergizedProtection/block/master/porn/formats/unbound.conf) (_pornus_) | [TXT](https://raw.githubusercontent.com/EnergizedProtection/block/master/porn/formats/unbound.conf) (_pornrs_) |
@@ -136,7 +136,7 @@ Package | Sources |
 **Blu** | *1Hosts.cf, AdAway, Adblock No Coin List, add.2o7Net, add.Dead, AdGuard DNS, Spyware & Tracking, Ador Energized, Anti-PopAds, CK Ad & WEB RTC, Disconnect.me Ad & Malware, DShield.org LOW, Easylist & Adservers, EasyPrivacy, ETH Phising Detect, hBlock, hpHosts ATS & WRZ, KADhosts, LightSwitch Extended, MalwareDomainList.com, MalwareDomains.com - Immortal & Just Domains, MoaAB, MVPS.ORG, NeoHosts, Notracking, NSABlocklist, someonewhocares, Spam404.com - Ad, Steven Black Unified & Fakenews-Gambling, Streaming Ads, UncheckyAds, Vokins YHosts, YousList, YoYo.org, ZeroDot1 CoinBlockerList and Zeus Tracker* |
 **Blu go** | *1Hosts.cf, AdAway, add.2o7Net, add.Dead, AdGuard Spyware & Tracking, Ador Energized, Anti-PopAds,  Easylist Adservers, EasyPrivacy, ETH Phising Detect, MVPS.ORG, Notracking, NSABlocklist, someonewhocares, Spam404.com - Ad, Steven Black Unified & Fakenews-Gambling, Streaming Ads, UncheckyAds, YoYo.org, ZeroDot1 CoinBlockerList and Zeus Tracker* |
 **Porn** | *Ador Energized Porn, Airelle SEX, Easylist Adult Ads, Specific & Thirdparty, Porn Top1Million, PornAway, Porn Hosts & Sinfonietta Porn* |
-**Ultimate** | *Energized Basic, Bad Boyz Hosts, Blockzilla, CK Barbblock, Cybercrime, Disconnect.me Tracking, DShield.org High & Medium, EasyPrivacy Specific, Thirdparty & Tracking, Fanboy Annoyance & Enhanced Stats, hpHosts EXP, GRM, HJK & MMT, Matomo.org Spammers, Quidsup NoTrack, Ransomware Tracker, Sinfonietta Snuff, Spam404.com Main Blacklist, Squidblacklist DG Ad & Malicious, Stopforumspam.com and ZeroDot1 CoinBlockerList Browser & Optional * |
+**Ultimate** | *Energized Basic, Bad Boyz Hosts, Blockzilla, CK Barbblock, Cybercrime, Disconnect.me Tracking, DShield.org High & Medium, EasyPrivacy Specific, Thirdparty & Tracking, Fanboy Annoyance & Enhanced Stats, hpHosts EXP, GRM, HJK & MMT, Matomo.org Spammers, Quidsup NoTrack, Ransomware Tracker, Sinfonietta Snuff, Spam404.com Main Blacklist, Squidblacklist DG Ad & Malicious, Stopforumspam.com and ZeroDot1 CoinBlockerList Browser & Optional* |
 **Unified** | *Energized Ultimate and Porn* |
 
 ## Thanks to -
@@ -144,7 +144,7 @@ Package | Sources |
 Updated `hosts` files from the following locations are always merged and
 included:
 
-Host file source | Description | Home page | Raw hosts | License |
+Hosts Source | Description | Home Page | RAW Hosts | License |
 -----------------|-------------|:---------:|:---------:|:---------:|
 1Hosts | A merged hosts file from a variety of other lists. | [LINK](https://forum.xda-developers.com/android/general/badmojr-one-host-file-to-block-t3713360) | [RAW](http://1hosts.cf/) | All Rights Reserved |
 AdAway | AdAway is an open source ad blocker for Android using the hosts file. |[LINK](https://adaway.org/) | [RAW](https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt) | MIT |
