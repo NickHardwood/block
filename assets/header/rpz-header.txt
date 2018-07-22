@@ -3,8 +3,9 @@
 ; https://nayemador.com/energized
 ; Project Git: https://github.com/EnergizedProtection/block
 
-; Version: 18.07.202
-; Last updated: Sat, 21 Jul 18 06:57:58
+; Version: 18.07.203
+; Last updated: Sun, 22 Jul 18 15:01:23
+
 $TTL 2h
 @ IN SOA localhost. root.localhost. (1 6h 1h 1w 2h)
   IN NS  localhost.

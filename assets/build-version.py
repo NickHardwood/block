@@ -18,7 +18,7 @@ if not os.path.exists(os.path.dirname(header)):
 with open(header, 'w') as f:
 	print('[+] Writing Header...')
 	f.write('''# Energized - ad.porn.malware blocking.\n# A merged collection of hosts from reputable sources.\n# https://nayemador.com/energized\n# Project Git: https://github.com/EnergizedProtection/block\n\n# Version: ''' + time.strftime("%y.%m.%j", time.gmtime()) + '''\n# Last updated: {}'''.format(datetime.datetime.now().strftime('%a, %d %b %y %X')))
-	f.write('''\n\n''')
+	f.write('''\n#\n\n''')
 	print('[+] Done!')
 	
 if not os.path.exists(os.path.dirname(rpzheader)):
@@ -27,7 +27,7 @@ if not os.path.exists(os.path.dirname(rpzheader)):
 with open(rpzheader, 'w') as f:
 	print('[+] Writing Header...')
 	f.write('''; Energized - ad.porn.malware blocking.\n; A merged collection of hosts from reputable sources.\n; https://nayemador.com/energized\n; Project Git: https://github.com/EnergizedProtection/block\n\n; Version: ''' + time.strftime("%y.%m.%j", time.gmtime()) + '''\n; Last updated: {}'''.format(datetime.datetime.now().strftime('%a, %d %b %y %X')))
-	f.write('''\n$TTL 2h''')
+	f.write('''\n\n$TTL 2h''')
 	f.write('''\n@ IN SOA localhost. root.localhost. (1 6h 1h 1w 2h)''')
 	f.write('''\n  IN NS  localhost.''')
 	f.write('''\n\n''')
